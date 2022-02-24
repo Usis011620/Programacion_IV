@@ -108,13 +108,13 @@ Vue.component('lectura',{
                             </div>
                         </div>
                         <div class="row p-1">
-                            <div class="col col-md-2">Metro consumido inicial:</div>
+                            <div class="col col-md-2">Metro inicial:</div>
                             <div class="col col-md-3">
-                                <input title="Ingrese los metros consumidos, inicial" v-model="lectura.lanterior" required type="text" class="form-control">
+                                <input title="Ingrese lectura inicial" v-model="lectura.lanterior" required type="text" class="form-control">
                             </div>
                         </div>
                         <div class="row p-1">
-                            <div class="col col-md-2">Metro Consumido final:</div>
+                            <div class="col col-md-2">Metro final:</div>
                             <div class="col col-md-3">
                                 <input title="Ingrese los metros consumidos, final" v-model="lectura.lactual" required type="text" class="form-control">
                             </div>
