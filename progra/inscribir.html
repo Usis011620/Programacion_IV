@@ -37,12 +37,12 @@
 
         <div class="container-fluid">
             <div class="card text-white" id="carCliente">
-                <div class="card-header bg-primary">
+                <div class="card-header bg-dark">
                     Registro de Inscripciones
 
                     <button type="button" class="btn-close text-end" data-bs-dismiss="alert" data-bs-target="#carCliente" aria-label="Close"></button>
                 </div>
-                <div class="card-body text-dark">
+                <div class="card-body text-white bg-secondary">
                     <form method="post" @submit.prevent="guardarInscripcion" @reset="nuevaInscripcion">
                         <div class="row p-1">
                             <div class="col col-md-2">Alumno:</div>
@@ -88,8 +88,8 @@
 
                     <button type="button" class="btn-close" data-bs-dismiss="alert" data-bs-target="#carBuscarMateria" aria-label="Close"></button>
                 </div>
-                <div class="card-body">
-                    <table class="table table-dark table-hover">
+                <div class="card-body bg-secondary">
+                    <table class="table table-dark table-striped">
                         <thead>
                             <tr>
                                 <th colspan="8">
